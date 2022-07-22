@@ -1,0 +1,11 @@
+Model Information:
+* title:	gallery
+* source:	https://sketchfab.com/3d-models/gallery-74adb7c03daf4c958c9373d4933a2da6
+* author:	amino (https://sketchfab.com/ZAQpoi)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "gallery" (https://sketchfab.com/3d-models/gallery-74adb7c03daf4c958c9373d4933a2da6) by amino (https://sketchfab.com/ZAQpoi) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

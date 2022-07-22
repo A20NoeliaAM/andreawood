@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
+  <script src="https://rawgit.com/ngokevin/aframe-look-at-component/master/dist/aframe-look-at-component.min.js"></script>
+  <script src="script.js"></script>
+
+</head>
+
+<body>
+  <a-scene>
+    <!-- Paredes -->
+      <!-- Suelo -->
+      <a-plane  position="0 0 -7" rotation="-90 0 0" width="8" height="16" material="src: material/baldosaSuelo.png; repeat:24 48"></a-plane>
+      <!-- Pared izda -->
+      <a-plane position="-4 1.3 -7" rotation="0 90 0" width="16" height="2.6" color="#f8f7f3"></a-plane>
+      <!-- Pared frente -->
+      <a-plane position="0 1.3 -15" rotation="0 0 0" width="8" height="2.6"  color="#f8f7f3"></a-plane>
+      <!-- Pared dcha -->
+      <a-plane position="4 1.3 -7" rotation="0 -90 0" width="16" height="2.6"  color="#f8f7f3"></a-plane>
+      <!-- Pared frente -->
+      <a-plane position="0 1.3 1" rotation="0 0 0" width="8" height="2.6" color="#f8f7f3"></a-plane>
+      <!-- Techo -->
+      <a-plane position="0 2.61 -7" rotation="-90 0 0" width="8" height="16" color="#7BC8A4"></a-plane>
+      <!-- Pared interior-Panel-->
+      <a-box position="0 1.1 -4" rotation="0 0 0" width="4" height="2.2" depth="0.3" color="#f8f7f3"></a-box>
+
+
+    <!-- Imagenes -->
+    <a-image id="imagen1" src="que-es-wallpaper1.jpg" width="1"  height="0.5625" position="-3.99 1.6 -6" rotation="0 90 0"></a-image>
+    <a-entity info geometry="primitive: sphere; radius: 0.05" material="color: #0326ff" position="-3.94 1 -6" onclick="moverCamara(-3, 1.6, -6, '#imagen1')"></a-entity>
+
+  
+
+    <a-sky color="#ECECEC"></a-sky>
+
+    <a-entity  id="camera" camera="active: true" look-controls wasd-controls position="0 1.6 0" data-aframe-default-camera>
+      <a-entity cursor="rayOrigin: mouse"></a-entity>
+    </a-entity>
+
+
+
+
+  </a-scene>
+</body>
+
+</html>

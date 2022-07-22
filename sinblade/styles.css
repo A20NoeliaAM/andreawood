@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'pilowlava';
+    src: url("Pilowlava-Regular.otf");
+}
+h1{
+    font-family: 'pilowlava';
+    color:#0326ff;
+    text-shadow: -4px 4px 3px #f8f7f3;
+    text-align: center;
+    font-size: 3em;
+}
+#h1-grande{   /* Modificar con media */
+    font-size: 6em;
+    text-shadow: -7px 7px 3px #f8f7f3;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url("fondo80.webp");
+}
+main{
+    max-width: 80%;
+    padding-top: 4em;
+    padding-bottom: 3em;
+    background-color: #f8f7f3;
+    margin: auto;
+    border-radius: 2em;
+}
+.contenido{
+    max-width: 70%;
+    width: 500px;
+    min-width: 33%;
+    margin: auto;
+}
+form{
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+    color: #0326ff;
+    font-size: 1.5em;
+}
+input{
+    border-radius: 0.3em;
+    border-color: #0326ff;
+    float:right;
+}
+label span{
+    float:left;
+}
+
+/*Botones*/
+.boton{
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-radius: 1em;
+    font-weight: bold;
+}
+.boton-naranja{
+    color: #f8f7f3;
+    background-color: #DE611D;
+    border-color: #C65619;
+}
+#boton-acceder{
+    font-size:0.7em;
+}
+nav form button{
+    font-size: 1.1em;
+}
+.boton-violeta{
+    background-color: #8D19C6;
+    color: #f8f7f3;
+    border-color: #7411A5;
+}
+#boton-blanco{
+    background-color: #f8f7f3;
+    color: #C65619;
+    position:absolute;
+    top: 3em;
+    right: 5%;
+}
+.boton-eliminar{
+    color:#8D19C6;
+    background-color: #f8f7f3;
+}
+article form button{
+    font-size: 0.6em;
+}
+
+nav{
+    margin: auto;
+    min-width: 50%;
+    max-width: 70%;
+    width: 800px;
+    text-align: center;
+}
+nav form{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+article{
+    margin: auto;
+    width: 70%;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    display: flex;
+}
+article img{
+    display: block;
+    width: 50%;
+    margin-right: 10%;
+}
+
+article p:nth-child(1){
+    font-size: 3em;
+}
+article p:nth-child(2){
+    font-size: 2em;
+}
+article form{
+    display: flex;
+}
