@@ -3,13 +3,13 @@
 
 <head>
   <script src="https://aframe.io/releases/0.8.2/aframe.min.js"></script>
-  <script src="https://rawgit.com/ngokevin/aframe-look-at-component/master/dist/aframe-look-at-component.min.js"></script>
+  <script src="https://recast-api.donmccurdy.com/aframe-inspector-plugin-recast.js"></script>
   <script src="script.js"></script>
 
 </head>
 
 <body>
-  <a-scene>
+  <a-scene inspector-plugin-recast>
     <!-- Paredes -->
       <!-- Suelo -->
       <a-plane  position="0 0 -7" rotation="-90 0 0" width="8" height="16" material="src: material/baldosaSuelo.png; repeat:24 48"></a-plane>
@@ -29,7 +29,7 @@
 
     <!-- Imagenes -->
     <a-image id="imagen1" src="que-es-wallpaper1.jpg" width="1"  height="0.5625" position="-3.99 1.6 -6" rotation="0 90 0"></a-image>
-    <a-entity info geometry="primitive: sphere; radius: 0.05" material="color: #0326ff" position="-3.94 1 -6" onclick="moverCamara(-3, 1.6, -6, '#imagen1')"></a-entity>
+    <a-entity info geometry="primitive: sphere; radius: 0.05" material="color: #0326ff" position="-3.94 1 -6" onclick="acercarse(-3, 1.6, -6, 'imagen1')"></a-entity>
 
   
 
